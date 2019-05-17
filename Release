@@ -1,0 +1,8 @@
+Origin: VN-Repo Team
+Label: VN-Repo Team
+Suite: stable
+Version: 1.0
+Codename: fcahapt 
+Architectures: iphoneos-arm
+Components: main
+Description: RepoStory
