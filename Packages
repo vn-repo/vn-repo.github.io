@@ -11,7 +11,7 @@ Md5sum: 88667e0c19022a2e86fc68a206cf8c9c
 SHA1: 495a233bb96c88a28dfb79b2cc5f5da7ee1f68de
 SHA256: d910887500e151038fbe8aee2c4899e66df6a216a62281f0b9983fbc158fbd79
 Tag: purpose::extension
-Depiction: https://hqhrepo.github.io/dt/cystore
+Depiction: https://hqhrepo.github.io/dt/cystoreo
 SileoDepiction: https://hqhrepo.github.io/dt/cystore
 Filename: https://hqhrepo.github.io/debs/com.ycs.cystore_1.0_iphoneos-arm.deb
 Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
@@ -116,3 +116,59 @@ Description: Gui cydia new
 Author: YcS_Dev
 Depiction: https://hqhrepo.github.io/dt/cydiagui
 Name: Cydia GUI
+
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta8
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), pincrush
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: debs/com.anemonetheming.anemone3_3.0~beta8_iphoneos-arm.deb
+Size: 16865404
+MD5sum: c24e76400e457676e0921f9767bfd9a8
+SHA1: 648440ee4962614ea355be0e682d41cd1ebec5a2
+SHA256: b90f81413424c6262c588741eeb18f5d88be13733a957d60da05e5a01d6a9e22
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
+
+Package: sileo-uncover
+Version: 1.0
+Section: Utilities
+Maintainer: YcS_Dev
+Depends: curl, gawk, us.diatr.sillyo2
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
+Replaces: com.level3tjg.sileofix
+Architecture: iphoneos-arm
+Filename: debs/sileo-uncover_1.0_iphoneos-arm.deb
+Size: 4604
+MD5sum: ba2c909c48fc5130460cd33baa24f95c
+SHA1: f42ac709032a5e74927547a60e592c7a59e8dac0
+SHA256: c431a24f9d537fc6faa9f4941a4b98f69acee97f8d2e4ae6af76118a4f60cf14
+Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus.
+Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. 
+Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt/cập nhật, và 'Removesileo' để gỡ cài đặt.
+Sileodepiction: https://hqhrepo.github.io/dt/sileouncover
+Name: Sileo unc0ver
+Author: YcS_Dev
+
+Package: sillyo3
+Version: 3.0
+Section: Tweaks
+Maintainer: YcS_Dev
+Depends: mobilesubstrate
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo
+Architecture: iphoneos-arm
+Filename: debs/sillyo3_3.0_iphoneos-arm.deb
+Size: 4324
+MD5sum: ffcce14f87bf1a9f40432a6e9dcdfb5c
+SHA1: b6e9c24c9805deb3ae12689df613b33453f96f39
+SHA256: d8f6b9efa849ff328a6ae3a0131a9551d8ee189b91062ae52b8bd9de4587821c
+Description: Compatibility layer for Sileo/unc0ver. (Thanks Diatrus; samg and level3tjg)
+Name: Sileo Compatibility Layer
+Author: YcS_Dev
