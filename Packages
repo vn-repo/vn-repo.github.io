@@ -141,7 +141,7 @@ Package: sileo-uncover
 Version: 1.0
 Section: Utilities
 Maintainer: YcS_Dev
-Depends: curl, gawk, us.diatr.sillyo2
+Depends: curl, gawk, sillyo3
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
 Replaces: com.level3tjg.sileofix
 Architecture: iphoneos-arm
