@@ -18,13 +18,13 @@ Maintainer: YcS_Dev & Wilson Styres <adesign749@gmail.com>
 Icon: file:///Applications/Zebra.app/AppIcon60x60@2x.png
 
 Package: org.coolstar.sileo
-Version: 1.0.7~beta
+Version: 1.0.8~beta
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui
-Filename: https://hqhrepo.github.io/debs/org.coolstar.sileo_1.0.7~beta_iphoneos-arm.deb
+Filename: debs/org.coolstar.sileo_1.0.8~beta_iphoneos-arm.deb
 Size: 2112892
 MD5sum: 887eff9ab55cec1b9aa9d18416b90332
 SHA1: b15fd370df74ed8c0c2ae060b5daed1d53509aa7
@@ -36,86 +36,6 @@ Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
-
-Package: cydia-chimera
-Version: 1.9.4~chimera
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 13600
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: https://hqhrepo.github.io/debs/cydia-dark_1.9.4~chimera_iphoneos-arm.deb
-Size: 1614884
-MD5sum: 2b7bd6a1426d1bc4b132b8b0816c321d
-SHA1: 474dcbfa0ce4c2177607d406989418ee0f23155f
-SHA256: 91f50cc80da58dcefdbfa937aedffc22ccd84e478b368d1d771ff3ff30b7b0ff
-Section: Packaging
-Priority: optional
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: zLabs Team
-Depiction: http://cydia.saurik.com/info/cydia/
-SileoDepiction: https://hqhrepo.github.io/dt/cydia
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia  Electra/Chimera
-
-Package: cydia-lproj
-Version: 1.9.3~chimera
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 712
-Depends: cydia
-Conflicts: org.thebigboss.russiancydia
-Replaces: cydia, org.thebigboss.russiancydia
-Provides: org.thebigboss.russiancydia
-Filename: https://hqhrepo.github.io/debs/cydia-lproj_1.9.3~chimera_iphoneos-arm.deb
-Size: 66928
-MD5sum: 423198b6e4ace8c6dbe7735eb337ded3
-SHA1: 1937bd69e0839ad43c74a965bc76fa27993be917
-SHA256: 0ba35ddb14c1876e3afa1f968cf670fffe4504f249fbe8fcf988b5e4551be9f7
-Section: Packaging
-Priority: required
-Description: languages and translations for Cydia
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia-lproj/
-Name: Cydia Translations
-
-Package: org.thebigboss.repo.icons
-Version: 1.0
-Architecture: all
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 48
-Replaces: cydia, bigboss
-Filename: https://hqhrepo.github.io/debs/org.thebigboss.repo.icons_1.0_iphoneos-arm.deb
-Size: 11530
-MD5sum: 79549eb8f5a03cb829ad783b80bd1fee
-SHA1: d6f383ec7c7119dd1d52502d62340415e5298391
-SHA256: 826001ef4cf513d9f49f3a8ac142addb9ca586bbad6c1410c7921f509901ee4e
-Section: Repositories
-Priority: optional
-Multi-Arch: foreign
-Description: locally cached package icons from BigBoss
-Name: BigBoss Icon Set
-
-Package: com.ycs.ydiagui
-Version: 0.1
-Architecture: iphoneos-arm
-Maintainer: YcS_Dev 
-Depends: dpkg
-Filename: https://hqhrepo.github.io/debs/com.ycsdev.cydiagui_0.1_iphoneos-arm.deb
-Size: 26080
-MD5sum: 9d2995ff8344b0abe478ccddf973e3b9
-SHA1: 8708e0bf579af799f4b506e381cd027c60101e8f
-SHA256: 0883b3bf4d057879823c6a36cd2ec7df28f6cd939c5b370eddd6e5880b11b55e3
-Section: Packaging
-Priority: optional
-Description: Gui cydia new
-Author: YcS_Dev
-Depiction: https://hqhrepo.github.io/dt/cydiagui
-Name: Cydia GUI
 
 Package: com.anemonetheming.anemone3
 Version: 3.0~beta8
@@ -145,11 +65,11 @@ Depends: curl, gawk, sillyo3
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.samgisaninja.sillyo-installer, com.samgisaninja.sillyo, com.level3tjg.sileofix
 Replaces: com.level3tjg.sileofix
 Architecture: iphoneos-arm
-Filename: debs/sileo-uncover_1.0_iphoneos-arm.deb
-Size: 4604
-MD5sum: ba2c909c48fc5130460cd33baa24f95c
-SHA1: f42ac709032a5e74927547a60e592c7a59e8dac0
-SHA256: c431a24f9d537fc6faa9f4941a4b98f69acee97f8d2e4ae6af76118a4f60cf14
+Filename: debs/sileo-uncover_1.0.1_iphoneos-arm.deb
+Size: 4516
+MD5sum: 23e455f24e298b9f6d560d66d8c0dc6b
+SHA1: 6ecc2f4e0e9122eccb13e85c9ba7919bf8f832d4
+SHA256: 999a1df21d3017e8d7d23dc680f380855dd3196e79d29d696a51521e397d3f29
 Description: Hiện tại nhóm đã phát triển thành công công cụ cài đặt Sileo trên thiết bị jailbreak Unc0ver được dựa trên mã nguồn mở của nhà phát triển Diatrus.
 Chúng tôi tinh lại mã nguồn để phù hợp với Sileo bản chính thức, nhóm đã thử nghiệm và hoạt động ổn định. 
 Chạy lệnh 'SileoUnc0ver' qua SSH hoặc MTerminal để cài đặt/cập nhật, và 'Removesileo' để gỡ cài đặt.
