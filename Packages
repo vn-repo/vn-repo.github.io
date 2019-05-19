@@ -25,10 +25,10 @@ Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui
 Filename: debs/org.coolstar.sileo_1.0.8~beta_iphoneos-arm.deb
-Size: 2112892
-MD5sum: 887eff9ab55cec1b9aa9d18416b90332
-SHA1: b15fd370df74ed8c0c2ae060b5daed1d53509aa7
-SHA256: ef9998af09527ec8a777bdb8e87d97b3a30c02a218287481551580c94e68afb0
+Size: 2097672
+MD5sum: 6c62e8e9bc0e67a3bc9296f0f82c932c
+SHA1: b3f5839377d942abae2ebb180e38d3fa9a7a9bef
+SHA256: 1eb6bdc3484ab2ea6e21ef5850327df4d68827b001adafaa46c22d9a7d2490d4
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
@@ -36,26 +36,6 @@ Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta)
 Sileodepiction: https://hqhrepo.github.io/dt/sileo
-
-Package: com.anemonetheming.anemone3
-Version: 3.0~beta8
-Architecture: iphoneos-arm
-Maintainer: AnemoneTeam <anemonetheming@gmail.com>
-Depends: firmware (>=11.0), pincrush
-Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta8_iphoneos-arm.deb
-Size: 16865404
-MD5sum: c24e76400e457676e0921f9767bfd9a8
-SHA1: 648440ee4962614ea355be0e682d41cd1ebec5a2
-SHA256: b90f81413424c6262c588741eeb18f5d88be13733a957d60da05e5a01d6a9e22
-Section: Tweaks
-Description: An awesome theme manager!
-Author: AnemoneTeam <anemonetheming@gmail.com>
-Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
-Name: Anemone 3
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
 Package: sileo-uncover
 Version: 1.0
